@@ -1,0 +1,26 @@
+server:
+  port: 9123
+  servlet:
+    context-path: /fcc-fses-c-ins-front
+
+spring:
+  application:
+    name: fcc-fses-c-ins-front
+    systemNo: 000000
+    
+OKHttp:
+  client:
+    maxRequests: 500
+    maxRequestsPerHost: 100
+    connectTimeout: 5
+    writeTimeout: 3
+    readTimeout: 8
+
+info:
+  author: XXX
+  app:
+    version: '@project.version@'
+    encoding: '@project.build.sourceEncoding@'
+    java-source: '@java.version@'
+    java-target: '@java.version@'
+
